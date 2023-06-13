@@ -18,12 +18,12 @@ public function findAll($page = 1, $pageSize = 10): array
 
         foreach ($query->fetchAll() as $line) {
             $list[] = new Article(
-                $line["id"], 
                 $line["title"], 
                 $line["description"], 
-                $line["user"],
+                $line["user"], 
                 $line["img"],
-                $line["id_categorie"]
+                $line["id_categorie"],
+                $line["id"]
             );
         }
 

@@ -31,7 +31,7 @@ CREATE TABLE commentaire (
 );
 
 INSERT INTO article (user, title, description, img)
-VALUES ('Shineii','Comment jouer Steamer DoPou','Passer niveau 200 et être riche',''),
+VALUES ('Shineii','Ilyzaelle','Passer niveau 200 et être riche',''),
 ('Nekost','Comment jouer Xelor multi', 'Connaitre les deplacements du Xelor','');
 
 INSERT INTO commentaire (surfacecom)

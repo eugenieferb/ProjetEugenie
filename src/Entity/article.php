@@ -8,9 +8,9 @@ class article {
     private string $description;
     private string $user;
     private string $img;
-    private int $id_categorie;
+    private ?int $id_categorie;
 
-    public function __construct(string $title, string $description, string $user, string $img, int $id_categorie , ?int $id = null)
+    public function __construct(string $title, string $description, string $user, string $img, ?int $id_categorie , ?int $id = null)
     {
         $this->id = $id;
         $this->user = $user;

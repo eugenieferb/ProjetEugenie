@@ -5,9 +5,9 @@ namespace App\Entity;
 class commentaire {
     private ?int $id;
     private string $surfacecom;
-    private int $id_article;
+    private ?int $id_article;
 
-    public function __construct(string $surfacecom, ?int $id = null, int $id_article )
+    public function __construct(string $surfacecom, ?int $id = null, ?int $id_article )
     {
         $this->id = $id;
         $this->surfacecom = $surfacecom;
